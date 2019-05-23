@@ -1,0 +1,33 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: SpringCloudDemoAPI
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: robin
+    password:
+    url: jdbc:mysql:///ttshop
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.qf.pojo
+  mapper-locations:
+    - classpath:mapper/*.xml
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+
+instance:
+  instance-id: SpringCloudDemo #自定义服务实例名称
+  prefer-ip-address: true
+
+info:
+  app.name: SpringCloudName
+  company.name: www.baidu.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloudDemo001API" />
+        <module name="SpringCloudDemo002Provider01_8001" />
+        <module name="SpringCloudDemo003Consumer01_80" />
+        <module name="SpringCloudDemo004Eureka01_7001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GenerationTest" target="1.7" />
+      <module name="SpringCloudDemo001API" target="1.7" />
+      <module name="springclouddemo001api" target="1.7" />
+      <module name="SpringCloudDemo002Provider01_8001" target="1.7" />
+      <module name="SpringCloudDemo003Consumer01_80" target="1.7" />
+      <module name="SpringCloudDemo004Eureka01_7001" target="1.7" />
+      <module name="springCloudDemotest" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
